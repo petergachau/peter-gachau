@@ -8,14 +8,14 @@
 }
 
 body {
-  background: #fff;
+  background: rgb(19, 18, 18);
 }
 
 h1,
 h4,
 p,
 a {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
@@ -32,16 +32,30 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 1rem;
+  margin-top: 2rem !important;
 }
 
 .btn-light {
   /* background: rgba(255, 255, 255, 0.2); */
-  background: transparent;
-  color: #fff;
+  padding: 12px 32px;
+  font-size: 1rem;
+  margin-top: 2rem !important;
+  text-transform: uppercase;
+  background: rgb(243, 242, 234);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(33, 30, 190) !important;
+  border-radius: 1rem;
 }
 
 .btn:hover {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
+}
+.L{
+  color: black;
 }
