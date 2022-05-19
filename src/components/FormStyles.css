@@ -14,10 +14,10 @@ form{
 form input ,form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: rgb(43, 39, 39);
     border-color: rgb(64, 75, 65) ;
-    color: whitesmoke;
+    color: rgb(216, 22, 22);
     border-radius: 1rem;
 }
 .form p{
